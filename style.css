@@ -27,31 +27,33 @@
 }
 
 /* spacing on all sections */
-#about {
-    margin-top: 4rem;
+#about, #experience, #projects, #connect {
+    margin-top: 1rem;
     padding-top: 4rem;
 }
-#services {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-#portfolio {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-#contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    text-align: center;
+}
+.aboutText.card {
+    height: 75px;
+    cursor: pointer;
+    text-align: center;
+}
+.aboutIcon {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.aboutText:hover {
+    border: 1px solid #008000;
 }
 
 /* services section css */
 .servicesText.card {
-    height: 280px;
+    height: 160px;
     cursor: pointer;
   }
 .servicesIcon {
@@ -63,10 +65,11 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: skyblue;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid skyblue;
+    color: skyblue;
 }
 
 /* social media icons styling */
@@ -74,14 +77,14 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-instagram:hover,.fa-linkedin:hover,.fa-github:hover {
+.fa-instagram:hover,.fa-linkedin:hover,.fa-github:hover,.fa-envelope:hover {
     color: lightskyblue;
 }
-.fab {
+.fab,.fa {
     color: #000000;
 }
 /* footer styling */
 #footer {
-    background-color: transparent;
+    background-color: lightgray;
     text-align: center;
 }
