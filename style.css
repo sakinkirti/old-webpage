@@ -38,7 +38,7 @@
     text-align: center;
 }
 .aboutText.card {
-    height: 75px;
+    height: 115px;
     cursor: pointer;
     text-align: center;
 }
@@ -47,8 +47,12 @@
     text-align: center;
     width: 100%;
 }
+.card:hover .aboutIcon {
+    color: brown;
+}
 .aboutText:hover {
-    border: 1px solid #008000;
+    border: 1px solid brown;
+    color: brown;
 }
 
 /* services section css */
@@ -86,6 +90,7 @@
 .fab,.fa {
     color: #000000;
 }
+
 /* footer styling */
 .footer {
     padding-top: 10px;
