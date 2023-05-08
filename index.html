@@ -36,6 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">PROJECTS</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">CONTACT</a>
+                    </li>
                 </ul>
                 
             </div>
@@ -118,8 +121,8 @@
     <!-- services section-->
     <section id="experience">
         <div class="container">
-            <h1 class="text-center">Experience</h1>
-            <p>At each job that I have worked, I have met new and interesting people and learned something valuable. Click on each experience to read more about what the day-to-day at each job was like and what I learned.</p>
+            <h1 class="text-center">Where I've Worked</h1>
+            <p>At each job that I have worked, I have met new and interesting people and learned something valuable. Click on each experience to learn about the specific company or organization that I worked for.</p>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <a href="https://github.com/atit-lab" target="_blank" style="text-decoration: none; color: black;">
@@ -186,99 +189,89 @@
     <!-- portfolio section-->
     <section id="projects">
         <div class="container mt-4 mb-4">
-            <h1 class="text-center">Projects</h1>
+            <h1 class="text-center">Things I've Done on the Side</h1>
+            <p>These are some side projects that I have worked on. These projects have been instrumental in me learning and exploring new technologies. For example, I was able to work with neo4j for the first time, set up relational databases and use EC2 instances with AWS, and explore new things conceptually and diversifying my interest in various subject matter. </p>
             <div class="row">
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                    <a href="https://github.com/sakinkirti/monkeypox-dashboard" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/mp-dash.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Monkeypox Dashboard</h4>
+                                <p class="card-text">A dashboard to track and predict monkeypox cases and deaths in the US. Offered state-specific case counts/deaths (with 14-day predictions) and calculated and predicted public health statistics.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                    <a href="https://drive.google.com/drive/folders/1exuxV8TuM45xtL-L1C1bvYGQVmnXNcNP?usp=sharing" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/pgm-summary.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Probabilistic Graphical Model for MACE Prediction</h4>
+                                <p class="card-text">Built a deep neural net and Bayesian network to predict MACE. Results suggest that DNN picks up only severe cases, while Bayesian network performs consistently.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                    <a href="https://github.com/sakinkirti/pneumonia-classification-from-scratch" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/pneumo-xray.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Pneumonia Classification from Scratch</h4>
+                                <p class="card-text">Built a simple FCNN using only NumPy to classify pneumonia from X-ray images. Accuracy of 99.8% acheived with testing set.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                <div class="col-lg-4 mt-3">
+                    <a href="https://github.com/sakinkirti/wikipedia-graph/" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/wiki-graph.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">neo4j Wikipedia Graph</h4>
+                                <p class="card-text">Generates a graph based on a given wikipedia article. Each article is a node and external and internal links are edges. Pathfinding algorithms performed with CypherQL to find distances between various articles.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                <div class="col-lg-4 mt-3">
+                    <a href="https://github.com/sakinkirti/sakin-kirti" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/website.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Personal Portfolio Website</h4>
+                                <p class="card-text">Built a simple website using HTML, CSS, and JS.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                <div class="col-lg-4 mt-3">
+                    <a href="https://github.com/sakinkirti/genetic-algorithm" target="_blank" style="text-decoration: none; color: black;">
+                        <div class="projectsText card">
+                            <img class="card-img-top" src="images/mouse-and-cheese.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Genetic Algorithm Exploration</h4>
+                                <p class="card-text">Built a simple genetic algorithm which models a population of mice trying to reach a piece of cheese.</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
     </section>
 
+    <section id="footer"></section>
     <footer class="footer">
         <div class="social-icons mt-4 div-center">
-            <div class="row">
-                <div class="col-md-1"><a href="https://www.instagram.com/sakinkirti" target="_blank"><i class="fab fa-solid fa-instagram"></i></a></div>
-                <div class="col-md-1"><a href="https://www.linkedin.com/in/sakinkirti" target="_blank"><i class="fab fa-linkedin"></i></a></div>
-                <div class="col-md-1"><a href="https://www.github.com/sakinkirti" target="_blank"><i class="fab fa-github"></i></a></div>
-                <div class="col-md-1"><a href="mailto:sakin.arya.kirti@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></div>
-            </div>
+            <a href="https://www.linkedin.com/in/sakinkirti" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/sakinkirti" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:sakin.arya.kirti@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
         </div>
+        <div>
+            <a href="images/Resume_SakinKirti.pdf" target="_blank" style="text-decoration: none; color: black;"><p class="resumeText">Peek at my resume</p></a>
+        </div>
+        
         <p class="text-center mr-3 ml-3">Built by <b>yours truly</b> with basic HTML, CSS, and a hint of JS</p>
     </footer>
 
